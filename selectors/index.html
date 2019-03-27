@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>jQuery Crash Course | Selectors</title>
-	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<title>jQuery Refresh | Selectors</title>
+	<script src="../js/jquery.min.js"></script>
 	<style>
 		body{
 			font-size: 17px;
@@ -55,8 +55,11 @@
 	</div>
 
 	<script>
-		//$('h1').hide();
-		//$('h1#heading1').hide();
+		// $('h1').hide();
+		$('h1#heading1').hide();
+		setTimeout(() => {
+			$('h1#heading1').show();
+		}, 1000);
 		//$('.heading2').hide();
 
 		//$('p span').css('color', 'red');
